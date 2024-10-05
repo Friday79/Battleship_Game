@@ -44,3 +44,11 @@ def take_guess(self):
                        return guess_row, guess_col
               except valueError:
                   print("invalid input,please enter numbers.")
+
+    def update_grid(self,row,col,hit):
+      """
+      Grid updating according to guess hit or miss
+      """
+      self.grid[row][col] = "X" if hit else "_"
+         print("Hit!" if hit else "Miss!" )
+         
