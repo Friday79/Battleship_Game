@@ -20,3 +20,16 @@ self.grid_size = grid_size
         row,col = random.randint(0, self.grid_size -1), random.randint(0, self.grid_size -1)
         if(row, col) not in self.ships:
             self.ships.append(row, col)
+
+    def display_grid(self)
+    """
+    The grid display to the player
+    """
+      for row in self.grid:
+        print(" ".join(row))
+
+def take_guess(self):
+  """
+  Getting the input of the user and validate the guess
+  """
+  
