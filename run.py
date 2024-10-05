@@ -79,4 +79,28 @@ While hits < self.num_ships:
        else:
           print(" you missed!")
             self.update_grid(row,col, hit= False)
-            
+            else:
+              
+              print("Congratulation! you sunk all ships in the  {attempts} attempts.")
+
+              def main():
+                """
+                Initialize and run the battleships game.
+                """
+
+                While True:
+                  Try:
+                  grid_size = int(input("Enter grid_side(minimum 5):"))
+                  if grid_side < 5:
+                      print("Grid side must be at least 5.")
+                      else:
+                        break
+                        except valueError:
+                            print("invalid input.Please enter a number.")
+
+                            game = BattleshipGame(grid_side)
+                            game.play()
+
+                            if _name_ == "_main_":
+                              main()
+
