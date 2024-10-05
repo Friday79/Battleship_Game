@@ -32,4 +32,8 @@ def take_guess(self):
   """
   Getting the input of the user and validate the guess
   """
-  
+  While True:
+     Try:
+     guess_row = int(input(f"Enter row location(0-{self.grid_size -1}):"))
+     guess_col = int(input(f"Enter col location(0-{self.grid_size -1}):"))
+     
