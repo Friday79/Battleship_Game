@@ -51,4 +51,9 @@ def take_guess(self):
       """
       self.grid[row][col] = "X" if hit else "_"
          print("Hit!" if hit else "Miss!" )
-         
+
+def check_guess(self,row,col):
+  """
+  check if the guess hit the ship
+  """
+  return(row,col) in self.ships
