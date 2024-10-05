@@ -57,3 +57,26 @@ def check_guess(self,row,col):
   check if the guess hit the ship
   """
   return(row,col) in self.ships
+
+  def play(self):
+    """
+    where the user play against the computer, the game loop.
+    """
+    attempts = 0
+    hits = 0
+      print(f"Welcome to Battleships you need to sink 7self.num_ships.")
+
+While hits < self.num_ships:
+  print("\nCurrent grid:")
+  self.display_grid()
+  row,col = self.take_grid()
+  attempts += 1
+
+  if self.check_guess(row,col):
+    hit += 1
+       print("you hit a ship")
+       self.update_grid(row,col,hit = Trueself.ships.remove((row,col)))
+       else:
+          print(" you missed!")
+            self.update_grid(row,col, hit= False)
+            
