@@ -36,4 +36,11 @@ def take_guess(self):
      Try:
      guess_row = int(input(f"Enter row location(0-{self.grid_size -1}):"))
      guess_col = int(input(f"Enter col location(0-{self.grid_size -1}):"))
-     
+     if not (0 <= guess_row < self.grid_size and 0 <= guess_col < self.grid_size):
+            print("location out of bounds, try again.")
+            elif self.grid[guess_row][guess_col] != "0":
+                 print("you have already guess the location, try again")
+                 else:
+                       return guess_row, guess_col
+              except valueError:
+                  print("invalid input,please enter numbers.")
