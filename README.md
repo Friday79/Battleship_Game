@@ -1,32 +1,18 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## BattleshipsGame
+This is a single-player Battleships game where the player tries to sink a certain number of ships placed randomly on a grid. The game offers feedback on whether a guess is a hit or a miss. The player wins when all ships are destroyed.
 
-Welcome,
+## How to Play
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **May 14, 2024**
+1. Start the game by entering the size of the grid (minimum size is 5x5).
+2. The computer will randomly place a number of ships on the grid.
+3. The player must guess the locations of the ships by entering row and column numbers.
+4. The game will tell the player whether each guess is a "Hit!" or a "Miss!".
+5. The objective is to sink all the ships by guessing their locations.
 
-## Reminders
+## Features
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
-
-## Creating the Heroku app
-
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
-
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
----
-
-Happy coding!
+- **Random Ship Placement**: Each new game randomizes the positions of the ships.
+- **Customizable Grid Size**: Players can specify the size of the grid.
+- **User-Friendly Interface**: The game runs in the terminal with simple prompts.
+- **Hit/Miss Tracking**: Players get immediate feedback on their guesses.
+- **Win Condition**: The game keeps track of hits and ends when all ships are sunk.
