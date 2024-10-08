@@ -4,7 +4,7 @@ import random
 class BattleshipGame:
     def __init__(self, grid_size):
         """
-        The game is initialized by giving the grid_size and 
+        The game is init by giving the grid_size and 
         placing the computer's ships.
         """
         self.grid_size = grid_size
@@ -18,7 +18,8 @@ class BattleshipGame:
         Randomly place ships on the grid.
         """
         while len(self.ships) < self.num_ships:
-            row, col = random.randint(0, self.grid_size - 1), random.randint(0, self.grid_size - 1)
+            row = random.randint(0, self.grid_size - 1)
+            col = random.randint(0, self.grid_size - 1)
             if (row, col) not in self.ships:
                 self.ships.append((row, col))
 
