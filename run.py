@@ -36,12 +36,16 @@ class BattleshipGame:
         """
         while True:
             try:
-                guess_row = int(input(f"Enter row location (0-{self.grid_size - 1}): "))
-                guess_col = int(input(f"Enter col location (0-{self.grid_size - 1}): "))
-                if not (0 <= guess_row < self.grid_size and 0 <= guess_col < self.grid_size):
+                guess_row = int(input(f"Enter row location 
+                (0-{self.grid_size - 1}): "))
+                guess_col = int(input(f"Enter col location 
+                (0-{self.grid_size - 1}): "))
+                if not (0 <= guess_row < self.grid_size and 
+                0 <= guess_col < self.grid_size):
                     print("Location out of bounds, try again.")
                 elif self.grid[guess_row][guess_col] != "0":
-                    print("You have already guessed this location, try again.")
+                    print("You have already guessed this location, 
+                    try again.")
                 else:
                     return guess_row, guess_col
             except ValueError:
@@ -49,7 +53,8 @@ class BattleshipGame:
 
     def update_grid(self, row, col, hit):
         """
-        Update the grid based on whether the guess was a hit or miss.
+        Update the grid based on whether the guess 
+        was a hit or miss.
         """
         self.grid[row][col] = "X" if hit else "_"
         print("Hit!" if hit else "Miss!")
@@ -62,11 +67,13 @@ class BattleshipGame:
 
     def play(self):
         """
-        Main game loop where the player plays against the computer.
+        Main game loop where the player plays against 
+        the computer.
         """
         attempts = 0
         hits = 0
-        print(f"Welcome to Battleships! You need to sink {self.num_ships} ships.")
+        print(f"Welcome to Battleships! You need to sink 
+        {self.num_ships} ships.")
 
         while hits < self.num_ships:
             print("\nCurrent grid:")
@@ -91,7 +98,8 @@ def main():
     """
     while True:
         try:
-            grid_size = int(input("Enter grid size (minimum 5): "))
+            grid_size = int(input("Enter grid size 
+            (minimum 5): "))
             if grid_size < 5:
                 print("Grid size must be at least 5.")
             else:
