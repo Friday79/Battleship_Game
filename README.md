@@ -25,4 +25,12 @@ This is a single-player Battleships game where the player tries to sink a certai
 - Also tested by inputing invalid input
 
 ## Deployment
-  
+
+  - was deploy to Heroku from github
+
+
+    ## Credit
+
+    - credit to code institute
+    - credit to my mentor
+  - 
