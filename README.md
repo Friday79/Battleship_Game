@@ -16,3 +16,13 @@ This is a single-player Battleships game where the player tries to sink a certai
 - **User-Friendly Interface**: The game runs in the terminal with simple prompts.
 - **Hit/Miss Tracking**: Players get immediate feedback on their guesses.
 - **Win Condition**: The game keeps track of hits and ends when all ships are sunk.
+
+  ## Bug
+  No bug
+
+  ## Testing
+- Tested in pep8 and no error
+- Also tested by inputing invalid input
+
+## Deployment
+  
