@@ -8,6 +8,7 @@ This is a single-player Battleships game where the player tries to sink a certai
 3. The player must guess the locations of the ships by entering row and column numbers.
 4. The game will tell the player whether each guess is a "Hit!" or a "Miss!".
 5. The objective is to sink all the ships by guessing their locations.
+6. ![image](https://github.com/user-attachments/assets/55d6c465-473e-4002-9f3f-f6e4c2280dcf)
 
 ## Features
 
