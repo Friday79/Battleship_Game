@@ -66,8 +66,7 @@ class BattleshipGame:
         """
         attempts = 0
         hits = 0
-        print(
-            f"Welcome to Battleships!You need to sink {self.num_ships} ships.")
+        print(f"Welcome to Battleships!You need to sink {self.num_ships} ships.")
 
         while hits < self.num_ships:
             print("\nCurrent grid:")
