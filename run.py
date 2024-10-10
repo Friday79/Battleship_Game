@@ -35,9 +35,11 @@ class BattleshipGame:
         """
         while True:
             try:
-                guess_row = int(input(f"Enter row location (0-{self.grid_size - 1}): "))
-                guess_col = int(input(f"Enter col location (0-{self.grid_size - 1}): "))
-                if not (0 <= guess_row < self.grid_size and 0 <= guess_col < self.grid_size):
+                guess_row = int(input(
+                    f"Enter row location (0-{self.grid_size - 1}): "))
+                guess_col = int(input(
+                    f"Enter col location (0-{self.grid_size - 1}): "))
+                if not (0 <= [guess_row][guess_col]} < self.grid_size):
                     print("Location out of bounds, try again.")
                 elif self.grid[guess_row][guess_col] != "0":
                     print("You have already guessed this spot,")
@@ -66,7 +68,8 @@ class BattleshipGame:
         """
         attempts = 0
         hits = 0
-        print(f"Welcome to Battleships!You need to sink {self.num_ships} ships.")
+        print(
+            f"Welcome to Battleships!You need to sink {self.num_ships} ships.")
 
         while hits < self.num_ships:
             print("\nCurrent grid:")
