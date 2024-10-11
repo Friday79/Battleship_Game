@@ -37,15 +37,31 @@ This is a single-player Battleships game where the player tries to sink a certai
 
   ![image](https://github.com/user-attachments/assets/2d9ae0cf-7677-4152-a47a-0d4661ff97fb)
 
+## Language
 
+- python
+
+  ## Software
+  - Draw.io - use for flowchart
+  -  Gitpod - Used to code the project and save to online repo
+   -  Github - For version control
+   -  Heroku - use for Deployment
   
 ## Deployment
 
   - was deploy to Heroku from github
+- Create an account on Heroku.
+- Navigate to Heroku Dashboard and "Create a New App".
+- Input App name and choose a region you are closer to.
+- Select "Settings" from the table, and search for "Buildpack"
+- Add "python" and "nodejs" from the list, in that order.
+- Go to Deploy section, connect to GitHub.
+- Seach for the repository name to connect.
+- Click on Deploy Branch or enable Automatic Deploy.
+- Allow a few minutes and view the deployed program.
 
+    ## Acknowledgement
 
-    ## Credit
-
-    - credit to code institute
-    - credit to my mentor
-  - 
+  -  code institute - python essential and scope battleshipgame
+    - credit to my mentor-Spencer Barriball
+   
