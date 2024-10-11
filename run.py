@@ -17,7 +17,7 @@ class BattleshipGame:
         Randomly place ships on the grid.
         """
         while len(self.ships) < self.num_ships:
-            row = random.randint(0, self.grid_size - 1)
+            row = random.randint(, self.grid_size - 1)
             col = random.randint(0, self.grid_size - 1)
             if (row, col) not in self.ships:
                 self.ships.append((row, col))
