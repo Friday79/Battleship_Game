@@ -39,7 +39,7 @@ class BattleshipGame:
                     f"Enter row location (0-{self.grid_size - 1}): "))
                 guess_col = int(input(
                     f"Enter col location (0-{self.grid_size - 1}): "))
-                if not (0 <= [guess_row][guess_col] < self.grid_size):
+                if not (0 <= (guess_row),(guess_col) < self.grid_size):
                     print("Location out of bounds, try again.")
                 elif self.grid[guess_row][guess_col] != "0":
                     print("You have already guessed this spot,")
