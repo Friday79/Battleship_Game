@@ -46,8 +46,8 @@ class BattleshipGame:
                     print("try again.")
                 else:
                     return guess_row, guess_col
-            except ValueError:
-                print("Invalid input, please enter numbers.")
+            except ValueError as e
+                print("Invalid input {e}, please enter numbers.")
 
     def update_grid(self, row, col, hit):
         """
