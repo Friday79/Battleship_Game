@@ -30,6 +30,9 @@ This is a single-player Battleships game where the player tries to sink a certai
 - i testes it for error by entering grid size 4 and it display error
 
   ![image](https://github.com/user-attachments/assets/05d195fd-d7c0-4adc-beb7-fd5d305221c6)
+
+  ![image](https://github.com/user-attachments/assets/05bcb5f5-0917-427f-9a02-568cb0b19078)
+
   
 ## Deployment
 
