@@ -33,6 +33,11 @@ This is a single-player Battleships game where the player tries to sink a certai
 
   ![image](https://github.com/user-attachments/assets/05bcb5f5-0917-427f-9a02-568cb0b19078)
 
+  ## Sructure
+
+  ![image](https://github.com/user-attachments/assets/2d9ae0cf-7677-4152-a47a-0d4661ff97fb)
+
+
   
 ## Deployment
 
