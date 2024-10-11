@@ -27,6 +27,10 @@ This is a single-player Battleships game where the player tries to sink a certai
 
   ![image](https://github.com/user-attachments/assets/ba8eb4d5-bfba-4d00-b8e8-24c6558fda79)
 
+- i testes it for error by entering grid size 4 and it display error
+
+  ![image](https://github.com/user-attachments/assets/05d195fd-d7c0-4adc-beb7-fd5d305221c6)
+  
 ## Deployment
 
   - was deploy to Heroku from github
