@@ -45,6 +45,7 @@ This is a single-player Battleships game where the player tries to sink a certai
   - Draw.io - use for flowchart
   -  Gitpod - Used to code the project and save to online repo
    -  Github - For version control
+   -  Code Institute Python Linter - For python code validation
    -  Heroku - use for Deployment
   
 ## Deployment
