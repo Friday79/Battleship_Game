@@ -105,7 +105,7 @@ def main():
         except ValueError:
             print("Invalid input. Please enter a number.")
         except (KeyboardInterrupt, EOFError):
-            print("\n👋 Goodbye!")
+            print("\n Goodbye!")
             sys.exit(0)
     game = BattleshipGame(grid_size)
     game.play()
@@ -115,6 +115,6 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as e:
-        print(f"\n🚨 Unexpected error: {e}")
+        print(f"\n Unexpected error: {e}")
         sys.exit(1)
     
