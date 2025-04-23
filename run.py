@@ -98,7 +98,7 @@ def main():
         try:
             grid_size = int(input(
                 "Enter grid size (minimum 5, maximum 12): "))
-            if grid_size < 5 or grid_size < 12:
+            if grid_size < 5 or grid_size > 12:
                 print("Grid size must be between 5 and 12.")
             else:
                 break
