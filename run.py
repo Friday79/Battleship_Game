@@ -119,7 +119,7 @@ def main():
     print(Fore.YELLOW + "🧠 Use your brain, guess wisely, and aim carefully!")
     print(Fore.CYAN + "🔢 You'll enter row and column numbers ( 0 1 ..) to fire.")
     print(Fore.GREEN + "💥 'X' means a hit, '_' means a miss, and '0' means ungues.")
-    print((Fore.MAGENTA + "🗺️  Grid size number will be // 2 to get number of ship.")
+    print(Fore.MAGENTA + "🗺️  Grid size number will be // 2 to get number of ship.")
     printFore.YELLOW + ("🚨 You have unlimited guesses, try use as few as possible.")
     game.play()
 
