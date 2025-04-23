@@ -111,9 +111,9 @@ def main():
     print("🛳️  Welcome Aboard, Captain!")
     print("🎯 Your mission: Locate and destroy all enemy ships hidden in the ocean grid.")
     print("🧠 Use your brain, guess wisely, and aim carefully!")
-    print("🔢 You'll enter row and column numbers (like 2 3) to fire.")
+    print("🔢 You'll enter row and column numbers (like 0 1 2 3 ...) to fire.")
     print("💥 'X' means a hit, '_' means a miss, and '0' means unguessed.")
-    print("🗺️  Grid size will determine how big the battlefield is.")
+    print("🗺️  Grid size number will be // 2 to get number of ship.")
     print("🚨 You have unlimited guesses, but try to use as few as possible.")
     game.play()
 
