@@ -3,12 +3,14 @@ This is a single-player Battleships game where the player tries to sink a certai
 
 ## How to Play
 
-1. Start the game by entering the size of the grid (minimum size is 5x5).
+1. Start the game by entering the size of the grid (minimum size is 5 and maimun 12).
 2. The computer will randomly place a number of ships on the grid.
 3. The player must guess the locations of the ships by entering row and column numbers.
 4. The game will tell the player whether each guess is a "Hit!" or a "Miss!".
 5. The objective is to sink all the ships by guessing their locations.
-6. ![image](https://github.com/user-attachments/assets/55d6c465-473e-4002-9f3f-f6e4c2280dcf)
+6. ![image](https://github.com/user-attachments/assets/e8be5fd9-5cf5-4cae-aa22-d3bcb6548acb)
+
+7. ![image](https://github.com/user-attachments/assets/55d6c465-473e-4002-9f3f-f6e4c2280dcf)
 
 ## Features
 
@@ -17,9 +19,10 @@ This is a single-player Battleships game where the player tries to sink a certai
 - **User-Friendly Interface**: The game runs in the terminal with simple prompts.
 - **Hit/Miss Tracking**: Players get immediate feedback on their guesses.
 - **Win Condition**: The game keeps track of hits and ends when all ships are sunk.
+- **Colorama**: which help with the user friendly by adding color
 
   ## Bug
-  No bug
+  There was Bug, the player was able choose as many munbers more than 5. The bug was fixed by setting the grid size between 5 and 12.
 
   ## Testing
 - Tested in pep8 and no error
@@ -27,7 +30,10 @@ This is a single-player Battleships game where the player tries to sink a certai
 
   ![image](https://github.com/user-attachments/assets/ba8eb4d5-bfba-4d00-b8e8-24c6558fda79)
 
-- i testes it for error by entering grid size 4 and it display error
+- i testes it for error by entering grid size < 5 and > 12 and it display error
+
+- ![image](https://github.com/user-attachments/assets/d612d5de-35c0-4497-a8e0-8c97f44fe337)
+
 
   ![image](https://github.com/user-attachments/assets/05d195fd-d7c0-4adc-beb7-fd5d305221c6)
 
