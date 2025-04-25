@@ -20,6 +20,8 @@ This is a single-player Battleships game where the player tries to sink a certai
 - **Hit/Miss Tracking**: Players get immediate feedback on their guesses.
 - **Win Condition**: The game keeps track of hits and ends when all ships are sunk.
 - **Colorama**: which help with the user friendly by adding color
+- ![image](https://github.com/user-attachments/assets/0bb1bd15-9e90-4db4-9cd0-0f249baf97c2)
+
 
   ## Bug
   There was Bug, the player was able choose as many munbers more than 5. The bug was fixed by setting the grid size between 5 and 12.
